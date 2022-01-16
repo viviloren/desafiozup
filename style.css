@@ -11,12 +11,22 @@ main {
     height: 100vh;
     justify-content: center;
     position: relative;
+    float: right;
+}
+
+main {
+    #detalhes-container {
+        display: flex;
+    }
 }
 
 main>section img {
     height: 300px;
     margin: 15px 0;
     width: 300px;
+    #detalhes-container {
+        display: flex;
+    }
 }
 
 main>section button {
@@ -35,8 +45,21 @@ main>section button {
 }
 
 #detalhes-container {
+    display: flex;
+}
+
+#detalhes-container {
     font-weight: bold;
     list-style-type: none;
     height: 30px;
     width: 90%;
+}
+
+main>section img {
+    #detalhes-container {
+        display: flex;
+    }
+}
+
+
 }
